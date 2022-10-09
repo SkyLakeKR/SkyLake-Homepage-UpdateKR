@@ -1,0 +1,115 @@
+*  {
+        font-family: 'Cabin VF Beta';
+        padding: 0;
+        margin: 0;
+}
+body {
+    background-color: #333;
+    color: white;
+}
+
+.container {
+    width : 800px;
+    margin: 0 auto;
+    box-sizing:border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 240%;
+    align-items: center;
+    padding :1.5rem 0;
+    box-shadow: -2px 8px 30px 5px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px 8px 30px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 8px 30px 5px rgba(0,0,0,0.75);
+
+
+
+
+}
+
+header>p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+  
+}
+header>ul {
+    display: flex;
+
+}
+header>ul>li {
+    list-style-type: none;
+    margin-left: 1.5rem; 
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-bottom: 5px;
+    color:white;
+
+}
+header>ul>li:first-child>a {
+    border-bottom: 1px solid
+    black;
+}
+header>ul>li>a:hover {
+    border-bottom: 1px solid white;
+}
+
+section {
+    padding: 0 3rem;
+    text-align: center;
+}
+
+section>p {
+    margin-bottom: 2rem;
+
+}
+
+section>p:first-child {
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+section>p:last-of-type {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+section>a {
+    display: block;
+    border: 1px solid black;
+    width: 150px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+
+}
+footer {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: rgb(112, 110, 110);
+
+}
+footer>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer>a:hover {
+        border-bottom: 1px solid rgb(255, 255, 255);
+}
